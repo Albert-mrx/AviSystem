@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.4",
+    "datatables.net": "^2.2.2",
+    "flyonui": "^2.1.0",
+    "jquery": "^3.7.1",
+    "tailwindcss": "^4.1.4"
+  },
+  "scripts": {
+    "dev": "npx @tailwindcss/cli -i input.css -o output.css --watch"
+  },
+  "devDependencies": {
+    "@iconify/json": "^2.2.330",
+    "@iconify/tailwind4": "^1.0.6"
+  }
+}
