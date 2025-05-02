@@ -1,6 +1,4 @@
-
-
-  window.addEventListener('load', () => {
+window.addEventListener('load', () => {
     const available = document.querySelector('#select-stock')
     console.log('available', available)
     const { dataTable } = new HSDataTable('#datatable-filter')
@@ -13,6 +11,6 @@
       return isAvaiable === name || isAvaiable === ''
     })
     available.addEventListener('change', () => dataTable.draw())
-  })
+})
 
 

@@ -12,7 +12,5 @@ class IntegrantesModel extends Query{
 		$data = $this->select($sql);
 		return $data;
 	}
-
-
 }
 ?>
