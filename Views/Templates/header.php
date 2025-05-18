@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="output.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script>const base_url = '<?php echo base_url; ?>';</script>
     <title>Dashboard</title>
 </head>
@@ -15,22 +15,23 @@
             <div class="w-auto bg-sky-700">
                 <img src="<?php echo base_url;?>assets/img/logoavisystem.png" alt="" class="size-16 object-cover m-auto">
             </div>
+
             <div class="menu flex flex-col p-2">
                 <ul class="h-full ">
                     <li>
-                        <a href="<?php echo base_url; ?>Dashboard" class="bg-sky-900 text-slate-50 hover:not-focus ">
+                        <a href="<?php echo base_url; ?>Dashboard" class="bg-sky-700 text-slate-50 hover:not-focus ">
                         <span class="icon-[tabler--home] size-5"></span>
                         Dashboard
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="bg-sky-900 text-slate-50">
+                        <a href="<?php echo base_url; ?>DashboardAdmin" class="bg-sky-700 text-slate-50">
                         <span class="icon-[tabler--home] size-5 "></span>
                         Dashboard(admin)
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="bg-sky-900 text-slate-50">
+                        <a href="<?php echo base_url; ?>DashboardLider" class="bg-sky-700 text-slate-50">
                         <span class="icon-[tabler--home] size-5"></span>
                         Dashboard(lider)
                         </a>
@@ -61,14 +62,14 @@
                     </li>
                 </ul>
             </div>
-            <div class="w-full absolute bg-sky-900 h-20  bottom-0 flex flex-col items-center ">
-                <div class="flex flex-col text-sky-100">
-                    <span class="text-base font-bold"><?php echo $_SESSION['name'] ?></span>
-                    <span class="text-sm">Sup Admin</span>
+            <div class="w-full absolute bg-sky-700 h-20  bottom-0 flex flex-col items-center ">
+                <div class="flex  gap-1 text-sky-100 mt-3">
+                        <span class="text-sm font-bold"><?php echo $_SESSION['name'] ?> :</span>
+                        <span class="text-sm">Sup Admin</span>
                 </div>
-                <a href="<?php echo base_url;?>Integrantes/salir" class="flex text-lg text-red-500 items-center gap-2">
-                    <i class='bx bx-exit'></i>
-                    <span class="font-bolder">Terminar Session</span>
+                <a href="<?php echo base_url;?>Integrantes/salir" class=" flex justify-between text-sm bg-red-500/80 items-center gap-2 p-2 w-32 rounded-sm mt-1">
+                    <span class="font-bold text-slate-50">Salir</span>
+                    <i class='icon-[material-symbols-light--exit-to-app] text-slate-50 text-lg'></i>
                 </a>
             </div>
         </aside>

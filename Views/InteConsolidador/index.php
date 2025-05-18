@@ -1,8 +1,8 @@
 <?php include "Views/Templates/header.php"?>
 <div class="w-auto p-4 mt-16 overflow-y-auto bg-slate-100 ">
     <h1 class="text-sm font-bold text-sky-950 mb-2 flex justify-start items-center"><span class="icon-[heroicons--computer-desktop] font-bold"></span>INTEGRANTES</h1>
+    <!-- cards -->
     <section class="flex  w-full h-auto">
-        <!-- cards -->
         <div class="grid grid-cols-3 gap-2 xl:gap-2  xl:w-full h-1/2 ">
             <!-- Card 1 -->
             <div class="lg:h-32 xl:h-40 bg-red-500  text-white p-1 rounded-lg flex ">
@@ -93,6 +93,13 @@
             </div>
         </div>
     </section>
+    <!-- / cards -->
+     <!-- btn nuevo integrante -->
+     <div class="fex justify-end mt-4 w-full  p-2">
+        <button class=" btn  p-2 bg-sky-800 border-sky-800 text-slate-50" id="btn-nuevoIntegrante"> <span class="icon-[mingcute--user-add-line] "></span> Nuevo integrante</button>
+     </div>
+     <!-- / btn nuevo integrante -->
+    <!-- table -->
     <section class="flex flex-col mt-24 ">
             <h1 class="text-lg font-bold">Lista de Miembros</h1>
             <!-- table -->
@@ -368,5 +375,6 @@
 
             </div>
     </section>
+    <!-- /table -->
 </div>
 <?php include "Views/Templates/footer.php"?>

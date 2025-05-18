@@ -1,24 +1,12 @@
 <?php include "Views/Templates/header.php"?>
-
-<div class="bg-slate-50 w-full h-screen  p-4 mt-16 overflow-y-auto">
-    <h1 class="text-sm font-bold text-sky-950 mb-2">DASHBOARD</h1>
-    <section class="flex flex-col md:flex-row   w-full h-auto  ">
+<div class="w-full p-4 mt-16 overflow-y-auto bg-slate-100 ">
+    <h1 class="text-sm font-bold text-sky-950 mb-2 flex justify-start items-center"><span class="icon-[heroicons--computer-desktop] font-bold"></span>DASHBOARD</h1>
+    <section class="flex flex-col md:flex-row  w-full h-auto ">
         <!-- cards -->
-        <div class="grid grid-cols-1 md:grid-cols-2 gap-2 xl:gap-2 w-full md:w-1/2 xl:w-1/2 h-auto ">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-2 xl:gap-2 w-full xl:w-full h-1/2 ">
             <!-- Card 1 -->
-            <div class="h-32 lg:h-24 xl:h-32  bg-gray-800  text-white p-2 rounded-lg flex items-center">
-                <div class="text-6xl md:text-6xl lg:text-5xl xl:text-6xl w-2/5 flex flex-col justify-center items-center">
-                    <span class="icon-[fa-solid--user-cog]"></span>
-                </div>
-                <div class="w-3/5 text-center flex flex-col justify-center">
-                    <p class="text-xl md:text-lg text-sm xl:text-lg font-bold">Total de Admins</p>
-                    <p class="text-5xl text-center font-bold">5</p>
-                </div>
-            </div>
-
-            <!-- Card 2 -->
-            <div class="h-32 lg:h-24 xl:h-32  bg-cyan-700  text-white p-2 rounded-lg flex items-center">
-                <div class="text-6xl lg:text-5xl xl:text-6xl w-2/5 flex flex-col justify-center items-center">
+            <div class="h-32 lg:h-32 xl:h-40  bg-cyan-700  text-white p-1 rounded-lg flex">
+                <div class="text-6xl lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
                     <span class="icon-[bxs--user-check]"></span>
                 </div>
                 <div class="w-3/5 text-center flex flex-col justify-center">
@@ -27,81 +15,62 @@
                 </div>
             </div>
 
-            <!-- Card 3 -->
-            <div class=" h-32 lg:h-24 xl:h-32  bg-cyan-600  text-white p-2 rounded-lg flex items-center">
-                <div class="text-6xl lg:text-5xl xl:text-6xl w-2/5 flex flex-col justify-center items-center">
+            <!-- Card 2 -->
+            <div class="h-32 lg:h-32 xl:h-40  bg-cyan-600  text-white p-1 rounded-lg flex">
+                <div class="text-6xl lg:text-6xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
                     <span class="icon-[bxs--user-detail]"></span>
                 </div>
                 <div class="w-3/5 text-center flex flex-col justify-center">
-                <p class="text-xl  md:text-lg font-bold">Total Consolidadores</p>
+                <p class="text-xl md:text-sm xl:text-lg font-bold">Total Consolidadores</p>
                 <p class="text-5xl text-center font-bold">10</p>
                 </div>
             </div>
 
-            <!-- Card 4 -->
-            <div class="h-32 lg:h-24 xl:h-32  bg-emerald-600 h-24  text-white p-2 rounded-lg flex items-center">
-                <div class="text-6xl lg:text-5xl xl:text-6xl w-2/5 flex flex-col justify-center items-center">
+            <!-- Card 3 -->
+            <div class="h-32 lg:h-32 xl:h-40  bg-emerald-600 h-24  text-white p-1 rounded-lg flex">
+                <div class="text-6xl lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
                     <span class="icon-[clarity--users-solid]"></span>
                 </div>
                 <div class="w-3/5 text-center flex flex-col justify-center">
-                <p class="text-xl xl:text-lg font-bold">Total Grupos</p>
+                <p class="text-xl md:text-sm xl:text-lg font-bold">Total Grupos</p>
                 <p class="text-5xl text-center font-bold">8</p>
                 </div>
             </div>
 
-            <!-- Card 5 -->
-            <div class="h-32 lg:h-24 xl:h-32 bg-red-500 h-24  text-white p-2 rounded-lg flex items-center">
-                <div class="text-6xl lg:text-5xl xl:text-6xl w-2/5 flex flex-col justify-center items-center">
-                    <span class="icon-[fa-solid--users]"></span>
+            <!-- Card 4 -->
+            <div class="h-32 lg:h-32 xl:h-40 bg-orange-400    text-white p-1 rounded-lg flex">
+                <div class="text-6xl lg:text-6xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
+                <span class="icon-[icon-park-solid--women]"></span>
                 </div>
                 <div class="w-3/5 text-center flex flex-col justify-center">
-                <p class="text-xl xl:text-lg font-bold">Grupos Activos</p>
-                <p class="text-5xl text-center font-bold">23</p>
-                </div>
-            </div>
-
-            <!-- Card 6 -->
-            <div class="h-32 lg:h-24 xl:h-32 bg-orange-400 h-24   text-white p-2 rounded-lg flex items-center">
-                <div class="text-6xl lg:text-5xl xl:text-6xl w-2/5 flex flex-col justify-center items-center">
-                    <span class="icon-[material-symbols--star-rounded]"></span>
-                </div>
-                <div class="w-3/5 text-center flex flex-col justify-center">
-                <p class="text-xl xl:text-lg font-bold">Total Integrantes</p>
+                <p class="text-xl md:text-sm xl:text-lg font-bold">Total Integrantes</p>
                 <p class="text-5xl text-center font-bold">46</p>
                 </div>
             </div>
 
-            <!-- Card 7 -->
-            <div class="h-32 lg:h-24 xl:h-32  bg-cyan-700 h-24  text-white p-2 rounded-lg flex items-center">
-                <div class="text-6xl lg:text-5xl xl:text-6xl w-2/5 flex flex-col justify-center items-center">
-                    <span class="icon-[fa6-solid--hands-holding-child]"></span>
+            <!-- Card 5 -->
+            <div class="h-32 lg:h-32 xl:h-40  bg-cyan-700  text-white p-1 rounded-lg flex">
+                <div class="text-6xl lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
+                <span class="icon-[material-symbols--star-rounded]"></span>
                 </div>
                 <div class="w-3/5 text-center flex flex-col justify-center">
-                <p class="text-xl xl:text-lg font-bold">Total Nuevos</p>
-                <p class="text-5xl text-center font-bold">7</p>
-                </div>
-            </div>
-
-            <!-- Card 8 -->
-            <div class="h-32 lg:h-24 xl:h-32  bg-cyan-600  text-white p-2 rounded-lg flex items-center">
-                <div class="text-6xl lg:text-5xl xl:text-6xl w-2/5 flex flex-col justify-center items-center">
-                    <span class="icon-[oui--calendar]"></span>
-                </div>
-                <div class="w-3/5 text-center flex flex-col justify-center">
-                <p class="text-xl xl:text-lg font-bold">Reuniones Programadas</p>
-                <p class="text-5xl text-center font-bold">85</p>
+                    <p class="text-xl md:text-sm xl:text-lg font-bold">Integrantes Nuevos</p>
+                    <p class="text-5xl text-center font-bold">23</p>
                 </div>
             </div>
         </div>
-        <!-- chart -->
-        <article class="mt-5 w-full md:w-1/2 xl:w-1/2 h-auto flex justify-center items-center">
-                <!-- <canvas id="myChart"></canvas> -->
-                <canvas id="miDoughnutChart" width="400" height="400"></canvas>
-        </article>
     </section>
-    <section class="flex flex-col w-full md:overflow-y-auto h-1/2 mt-24 ">
+    <!-- chartjs donas 3 categorias -->
+    <section class="flex flex-wrap md:flex-nowrap md:flex-row gap-2  w-auto h-auto mt-8 md:justify-center ">
+            <canvas id="recurrenciactr"  class="w-xl h-xl md:w-full md:h-full"></canvas>
+            <canvas id="sexoctr"  class="w-xl h-xl md:w-full md:h-full"></canvas>
+            <canvas id="integrantesctr"  class="w-xl h-xl md:w-full md:h-full" ></canvas>
+    </section>
+    <!-- / chartjs donas 3 categorias -->
+    <!-- data tables -->
+    <section class="flex flex-col mt-24 ">
             <h1 class="text-lg font-bold">Lista de Miembros</h1>
-            <article>
+            <!-- table -->
             <div class="h-auto lg:w-auto">
                 <div
                     class="bg-base-100 flex flex-col rounded-md shadow-base-300/20 shadow-sm"
@@ -160,7 +129,7 @@
                                 <tr>
                                 <td>G101-F</td>
                                 <td>Juan carlos</td>
-                                <td> <span>10/02/2025</span> al <span>15/03/2025</span> </td>
+                                <td>10/02/2025</td>
                                 <td>
                                     <button class="btn btn-circle btn-text text-2xl btn-sm" aria-label="Action button">
                                     <span class="icon-[fluent--print-32-regular]"></span>
@@ -170,7 +139,7 @@
                                 <tr>
                                 <td>G102-J</td>
                                 <td>Maria jose</td>
-                                <td> <span>10/02/2025</span> al <span>15/03/2025</span> </td>
+                                <td>10/02/2025</td>
                                 <td>
                                     <button class="btn btn-circle btn-text text-2xl btn-sm" aria-label="Action button">
                                     <span class="icon-[fluent--print-32-regular]"></span>
@@ -180,7 +149,7 @@
                                 <tr>
                                 <td>G104-M</td>
                                 <td>Pedro</td>
-                                <td> <span>10/02/2025</span> al <span>15/03/2025</span> </td>
+                                <td>10/02/2025</td>
                                 <td>
                                     <button class="btn btn-circle btn-text text-2xl btn-sm" aria-label="Action button">
                                     <span class="icon-[fluent--print-32-regular]"></span>
@@ -190,7 +159,7 @@
                                 <tr>
                                 <td>G103-X</td>
                                 <td>Antoni</td>
-                                <td> <span>10/02/2025</span> al <span>15/03/2025</span> </td>
+                                <td>10/02/2025</td>
                                 <td>
                                     <button class="btn btn-circle btn-text text-2xl btn-sm" aria-label="Action button">
                                     <span class="icon-[fluent--print-32-regular]"></span>
@@ -200,7 +169,7 @@
                                 <tr>
                                 <td>G101-F</td>
                                 <td>Sara milagros</td>
-                                <td> <span>10/02/2025</span> al <span>15/03/2025</span> </td>
+                                <td>10/02/2025</td>
                                 <td>
                                     <button class="btn btn-circle btn-text text-2xl btn-sm" aria-label="Action button">
                                     <span class="icon-[fluent--print-32-regular]"></span>
@@ -210,7 +179,7 @@
                                 <tr>
                                 <td>G101-F</td>
                                 <td>Pepe carlos</td>
-                                <td> <span>10/02/2025</span> al <span>15/03/2025</span> </td>
+                                <td>10/02/2025</td>
                                 <td>
                                     <button class="btn btn-circle btn-text text-2xl btn-sm" aria-label="Action button">
                                     <span class="icon-[fluent--print-32-regular]"></span>
@@ -220,7 +189,7 @@
                                 <tr>
                                 <td>G101-F</td>
                                 <td>Jhon pedro</td>
-                                <td> <span>10/02/2025</span> al <span>15/03/2025</span> </td>
+                                <td>10/02/2025</td>
                                 <td>
                                     <button class="btn btn-circle btn-text text-2xl btn-sm" aria-label="Action button">
                                     <span class="icon-[fluent--print-32-regular]"></span>
@@ -230,7 +199,7 @@
                                 <tr>
                                 <td>G101-F</td>
                                 <td>Margarita</td>
-                                <td> <span>10/02/2025</span> al <span>15/03/2025</span> </td>
+                                <td>10/02/2025</td>
                                 <td>
                                     <button class="btn btn-circle btn-text text-2xl btn-sm" aria-label="Action button">
                                     <span class="icon-[fluent--print-32-regular]"></span>
@@ -267,11 +236,7 @@
                     </div>
                     </div>
             </div>
-            </article>
-        </div>
+            <!-- /table -->
     </section>
 </div>
- <!--data table container -->
-
-
 <?php include "Views/Templates/footer.php"?>
