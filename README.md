@@ -19,9 +19,11 @@ de la misma
 1️⃣ Clona el repositorio:
 ```bash
 git clone https://github.com/Albert-mrx/AviSystem.git
-
-2️⃣ carga los paquetes nodejs:
+```
+2️⃣carga los paquetes nodejs:
 ```bash
-npm install
+ npm install
+```
 3️⃣ ejecuta tailwindcss + FlyonUI:
+```bash
 npm run dev
