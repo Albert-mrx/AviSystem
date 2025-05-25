@@ -5,7 +5,7 @@
         <!-- cards -->
         <div class="grid grid-cols-1 md:grid-cols-3 gap-2 xl:gap-2 w-full xl:w-full h-1/2 ">
             <!-- Card 1 -->
-            <div class="h-32 lg:h-32 xl:h-40  bg-cyan-700  text-white p-1 rounded-lg flex">
+            <div class="h-32 md:h-40 lg:h-32 xl:h-40  bg-cyan-700  text-white p-1 rounded-lg flex">
                 <div class="text-6xl lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
                     <span class="icon-[bxs--user-check]"></span>
                 </div>
@@ -16,7 +16,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="h-32 lg:h-32 xl:h-40  bg-cyan-600  text-white p-1 rounded-lg flex">
+            <div class="h-32 md:h-40 lg:h-32 xl:h-40  bg-cyan-600  text-white p-1 rounded-lg flex">
                 <div class="text-6xl lg:text-6xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
                     <span class="icon-[bxs--user-detail]"></span>
                 </div>
@@ -27,7 +27,7 @@
             </div>
 
             <!-- Card 3 -->
-            <div class="h-32 lg:h-32 xl:h-40  bg-emerald-600 h-24  text-white p-1 rounded-lg flex">
+            <div class="h-32 md:h-40 lg:h-32 xl:h-40  bg-emerald-600 h-24  text-white p-1 rounded-lg flex">
                 <div class="text-6xl lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
                     <span class="icon-[clarity--users-solid]"></span>
                 </div>
@@ -38,7 +38,7 @@
             </div>
 
             <!-- Card 4 -->
-            <div class="h-32 lg:h-32 xl:h-40 bg-orange-400    text-white p-1 rounded-lg flex">
+            <div class="h-32 md:h-40 lg:h-32 xl:h-40 bg-orange-400    text-white p-1 rounded-lg flex">
                 <div class="text-6xl lg:text-6xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
                 <span class="icon-[icon-park-solid--women]"></span>
                 </div>
@@ -49,7 +49,7 @@
             </div>
 
             <!-- Card 5 -->
-            <div class="h-32 lg:h-32 xl:h-40  bg-cyan-700  text-white p-1 rounded-lg flex">
+            <div class="h-32 md:h-40 lg:h-32 xl:h-40  bg-cyan-700  text-white p-1 rounded-lg flex">
                 <div class="text-6xl lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
                 <span class="icon-[material-symbols--star-rounded]"></span>
                 </div>

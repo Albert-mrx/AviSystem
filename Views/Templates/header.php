@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="output.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="<?php echo base_url;?>node_modules/sweetalert2/dist/sweetalert2.all.min.js"></script>
     <script>const base_url = '<?php echo base_url; ?>';</script>
+   
     <title>Dashboard</title>
 </head>
 <body>
@@ -37,7 +38,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="">
+                        <a href="<?php echo base_url; ?>InteSuperAdmin" class="">
                         <span class="icon-[mage--user-fill] size-5"></span>
                         Integrantes
                         </a>

@@ -5,7 +5,7 @@
         <!-- cards -->
         <div class="grid grid-cols-1 h-48 md:grid-cols-2 lg:grid-cols-3 gap-2 w-full  p-2">
             <!-- Card 1 -->
-            <div class="h-32 md:h-auto bg-emerald-600  text-white p-4 rounded-lg flex items-center">
+            <div class="h-32 md:h-40 bg-emerald-600  text-white p-4 rounded-lg flex items-center">
                 <div class="text-7xl w-2/5 flex flex-col justify-center items-center">
                     <span class="icon-[heroicons--user-group-20-solid]"></span>
                 </div>
@@ -16,7 +16,7 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="h-32 md:h-auto bg-cyan-400 text-white p-4 rounded-lg flex items-center">
+            <div class="h-32 md:h-40 bg-cyan-400 text-white p-4 rounded-lg flex items-center">
                 <div class="text-7xl w-2/5 flex flex-col justify-center items-center">
                     <span class="icon-[si--user-fill]"></span>
                 </div>
@@ -27,7 +27,7 @@
             </div>
 
             <!-- Card 3 -->
-            <div class="h-32 md:h-auto bg-teal-400 text-white p-4 rounded-lg flex items-center">
+            <div class="h-32 md:h-40 bg-teal-400 text-white p-4 rounded-lg flex items-center">
                 <div class="text-7xl w-2/5 flex flex-col justify-center items-center">
                     <span class="icon-[solar--calendar-bold]"></span>
                 </div>
