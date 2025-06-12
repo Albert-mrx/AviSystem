@@ -50,7 +50,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="">
+                        <a href="<?php echo base_url; ?>Reuniones" class="">
                         <span class="icon-[cuida--calendar-outline] size-5"></span>
                         Reuniones
                         </a>

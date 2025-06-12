@@ -112,13 +112,14 @@
                                 <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
                                 <td>96584752</td>
                                  <td>
-                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#edituser">
                                     <span class="icon-[tabler--pencil] size-5"></span>
                                     </button>
-                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" onclick="deluser()">
                                     <span class="icon-[tabler--trash] size-5"></span>
                                     </button>
                                 </td>
+                                </tr>
                                 <tr>
                                 <td>04412387</td>
                                 <td>Juan carlos</td>
@@ -128,13 +129,14 @@
                                 <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
                                 <td>96584752</td>
                                  <td>
-                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#edituser">
                                     <span class="icon-[tabler--pencil] size-5"></span>
                                     </button>
-                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" onclick="deluser()">
                                     <span class="icon-[tabler--trash] size-5"></span>
                                     </button>
                                 </td>
+                                </tr>
                                 <tr>
                                 <td>04412387</td>
                                 <td>Juan carlos</td>
@@ -144,13 +146,14 @@
                                 <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
                                 <td>96584752</td>
                                  <td>
-                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#edituser">
                                     <span class="icon-[tabler--pencil] size-5"></span>
                                     </button>
-                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" onclick="deluser()">
                                     <span class="icon-[tabler--trash] size-5"></span>
                                     </button>
                                 </td>
+                                </tr>
                                 <tr>
                                 <td>04412387</td>
                                 <td>Juan carlos</td>
@@ -160,13 +163,14 @@
                                 <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
                                 <td>96584752</td>
                                  <td>
-                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#edituser">
                                     <span class="icon-[tabler--pencil] size-5"></span>
                                     </button>
-                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" onclick="deluser()">
                                     <span class="icon-[tabler--trash] size-5"></span>
                                     </button>
                                 </td>
+                                </tr>
                                 <tr>
                                 <td>04412387</td>
                                 <td>Juan carlos</td>
@@ -176,13 +180,14 @@
                                 <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
                                 <td>96584752</td>
                                  <td>
-                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#edituser">
                                     <span class="icon-[tabler--pencil] size-5"></span>
                                     </button>
-                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" onclick="deluser()">
                                     <span class="icon-[tabler--trash] size-5"></span>
                                     </button>
                                 </td>
+                                </tr>
                                 <tr>
                                 <td>04412387</td>
                                 <td>Juan carlos</td>
@@ -192,13 +197,14 @@
                                 <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
                                 <td>96584752</td>
                                  <td>
-                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#edituser">
                                     <span class="icon-[tabler--pencil] size-5"></span>
                                     </button>
-                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" onclick="deluser()">
                                     <span class="icon-[tabler--trash] size-5"></span>
                                     </button>
                                 </td>
+                                </tr>
                                 <tr>
                                 <td>04412387</td>
                                 <td>Juan carlos</td>
@@ -208,13 +214,14 @@
                                 <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
                                 <td>96584752</td>
                                  <td>
-                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#edituser">
                                     <span class="icon-[tabler--pencil] size-5"></span>
                                     </button>
-                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" onclick="deluser()">
                                     <span class="icon-[tabler--trash] size-5"></span>
                                     </button>
                                 </td>
+                                </tr>
                                 <tr>
                                 <td>04412387</td>
                                 <td>Juan carlos</td>
@@ -224,13 +231,14 @@
                                 <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
                                 <td>96584752</td>
                                  <td>
-                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#edituser">
                                     <span class="icon-[tabler--pencil] size-5"></span>
                                     </button>
-                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" onclick="deluser()">
                                     <span class="icon-[tabler--trash] size-5"></span>
                                     </button>
                                 </td>
+                                </tr>
                                 <tr>
                                 <td>04412387</td>
                                 <td>Juan carlos</td>
@@ -240,13 +248,14 @@
                                 <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
                                 <td>96584752</td>
                                  <td>
-                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#edituser">
                                     <span class="icon-[tabler--pencil] size-5"></span>
                                     </button>
-                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                    <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" onclick="deluser()">
                                     <span class="icon-[tabler--trash] size-5"></span>
                                     </button>
                                 </td>
+                                </tr>
                             </tbody>
                             </table>
                         </div>
@@ -363,6 +372,89 @@
         </div>
     </div>
     <!-- /modal nuevo usuario -->
+     <!-- editar usuario -->
+       <div id="edituser" class="overlay modal overlay-open:opacity-100 overlay-open:duration-300 hidden" role="dialog" tabindex="-1">
+        <div class="modal-dialog overlay-open:mt-12 overlay-open:opacity-100 overlay-open:duration-300 transition-all ease-out" >
+            <div class="modal-content">
+                <div class="modal-header text-center justify-center">
+                    <h2 class="text-xl  font-bold text-center text-sky-800 modal-title">Editar Usuario</h2>
+                    <button type="button" class="btn btn-text btn-circle btn-sm absolute end-3 top-3" aria-label="Close" data-overlay="#edituser">
+                        <span class="icon-[tabler--x] size-4"></span>
+                    </button>
+                </div>
+                 
+                <form method="POST" id="frmUsuario" class="p-4 grid grid-cols-2 gap-4">
+                    <section>
+                        <div class="w-full flex flex-col">
+                            <label for="doc" class="text-sky-800">Tipo Documento</label>
+                            <select name="documento" id="documento" class="p-2 border border-sky-600 rounded-md outline-none">
+                                <option value="" class="text-center" selected>----Seleccione----</option>
+                                <option value="1">Dni</option>
+                                <option value="">Pasaporte</option>
+                            </select>
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="ndoc"class="text-sky-800">Número de Documento</label>
+                            <input type="text" name="ndoc" id="ndoc" class="p-2 border border-sky-600 rounded-md outline-none ">
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="apmat"class="text-sky-800">Apellido  Materno</label>
+                            <input type="text" name="apmat" id="apmat" class="p-2 border border-sky-600 rounded-md outline-none">
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="rol"class="text-sky-800">Rol</label>
+                            <select name="rol" id="rol" class="p-2 border border-sky-600 rounded-md outline-none">
+                                <option value=""class="text-center" selected>----Seleccione----</option>
+                                <option value="1">Admin</option>
+                                <option value="2">Lider</option>
+                                <option value="3">Consolidador</option>
+                            </select>
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="miembro"class="text-sky-800">Miembro</label>
+                            <select name="" id="miembro" class="p-2 border border-sky-600 rounded-md outline-none">
+                                <option value="" class="text-center" selected>----Seleccione----</option>
+                                <option value="1">Activo</option>
+                                <option value="2">Inactivo</option>
+                            </select>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="w-full flex flex-col">
+                            <label for=""class="text-sky-800">Nombres</label>
+                            <input type="text"  id="nombre" name="nombre" class="p-2 border border-sky-600 rounded-md outline-none">
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="appat"class="text-sky-800">Apellido Paterno</label>
+                            <input type="text"  id="appat" name="appat" class="p-2 border border-sky-600 rounded-md outline-none">
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="grupo"class="text-sky-800">Asignar grupo</label>
+                            <select name="" id="" class="p-2 border border-sky-600 rounded-md outline-none">
+                                <option value="" class="text-center" selected>----Seleccione----</option>
+                                <option value="1">Grupo 1</option>
+                                <option value="2">Grupo 2</option>
+                            </select>
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="telefono"class="text-sky-800">Numero de Telefono</label>
+                            <input type="number"  id="telefono" name="telefono" maxlength="9" class="p-2 border border-sky-600 rounded-md outline-none">
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="justificacion"class="text-sky-800">Justificacion</label>
+                            <textarea name="justificacion" id="justificacion" cols="30" rows="10"class="px-0.5 border border-sky-600 rounded-md outline-none min-w-24 min-h-32 max-h-32" onclick="setCursorToStart(this)">
+
+                            </textarea>
+                        </div>
+                    </section>
+                    <div class="col-span-2">
+                        <button class="bg-sky-500 p-4 text-slate-50 rounded-md block m-auto">Guardar cambios</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /editar usuario -->
     <!-- modal nuevo consolidador -->
         <div id="nuevoconsoli" class="overlay modal overlay-open:opacity-100 overlay-open:duration-300 hidden" role="dialog" tabindex="-1">
         <div class="modal-dialog overlay-open:mt-12 overlay-open:opacity-100 overlay-open:duration-300 transition-all ease-out" >

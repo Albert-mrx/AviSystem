@@ -1,6 +1,7 @@
 @import "tailwindcss";
 @plugin "flyonui";
 @import "flyonui/src/vendor/datatables.css";
+@import "flyonui/src/vendor/fullcalendar.css";
 @import "./node_modules/flyonui/variants.css";
 
 /* If you gitignored node_modules use below method */

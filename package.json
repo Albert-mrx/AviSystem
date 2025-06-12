@@ -3,6 +3,7 @@
     "@tailwindcss/cli": "^4.1.4",
     "datatables.net": "^2.2.2",
     "flyonui": "^2.1.0",
+    "fullcalendar": "^6.1.17",
     "jquery": "^3.7.1",
     "sweetalert2": "^11.21.2",
     "tailwindcss": "^4.1.4"

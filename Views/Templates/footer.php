@@ -7,9 +7,14 @@
     <script src="node_modules/flyonui/flyonui.js"></script>
     <script src="<?php echo base_url;?>/node_modules/jquery/dist/jquery.min.js"></script>
     <script src="<?php echo base_url;?>/node_modules/datatables.net/js/dataTables.min.js"></script>
+    <script src="<?php echo base_url;?>/node_modules/fullcalendar/index.global.js"></script>
+    <script src="<?php echo base_url;?>/node_modules/@fullcalendar/core/locales-all.global.min.js"></script>
     <script src="<?php echo base_url;?>assets/js/chartjs.js"></script>
     <script src="<?php echo base_url;?>assets/js/chartjsadmin.js"></script>
     <script src="<?php echo base_url;?>assets/js/datatable.js"></script>
+    <script src="<?php echo base_url;?>assets/js/fullcalendar.js"></script>
+    <script src="<?php echo base_url;?>assets/js/calendar.js"></script>
+
     <script src="<?php echo base_url;?>assets/js/alerts.js"></script>
     <script src="<?php echo base_url;?>assets/js/toggle.js"></script>
     <script src="<?php echo base_url;?>assets/js/funciones.js"></script>

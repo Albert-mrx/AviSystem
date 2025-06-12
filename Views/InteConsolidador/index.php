@@ -3,10 +3,10 @@
     <h1 class="text-sm font-bold text-sky-950 mb-2 flex justify-start items-center"><span class="icon-[heroicons--computer-desktop] font-bold"></span>INTEGRANTES</h1>
     <!-- cards -->
     <section class="flex  w-full h-auto">
-        <div class="grid grid-cols-3 gap-2 xl:gap-2  xl:w-full h-1/2 ">
+        <div class="flex flex-col gap-3 w-full sm:grid sm:grid-cols-3 sm:gap-2  xl:gap-2  xl:w-full h-1/2 ">
             <!-- Card 1 -->
-            <div class="lg:h-32 xl:h-40 bg-red-500  text-white p-1 rounded-lg flex ">
-                <div class="lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
+            <div class="h-32 lg:h-32 xl:h-40 bg-red-500  text-white p-1 rounded-lg flex ">
+                <div class="text-6xl lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
                     <span class="icon-[fa--group]"></span>
                 </div>
                 <div class="w-3/5 text-center flex flex-col justify-center">
@@ -16,8 +16,8 @@
             </div>
 
             <!-- Card 2 -->
-            <div class="lg:h-32 xl:h-40  bg-gray-800  text-white p-1 rounded-lg flex">
-                <div class="lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
+            <div class="h-32 lg:h-32 xl:h-40  bg-gray-800  text-white p-1 rounded-lg flex">
+                <div class="text-6xl lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
                     <span class="icon-[fluent-mdl2--reminder-group]"></span>
                 </div>
                 <div class="w-3/5 text-center flex flex-col justify-center">
@@ -27,8 +27,8 @@
             </div>
 
             <!-- Card 3 -->
-            <div class="lg:h-32 xl:h-40  bg-orange-400  text-white p-1 rounded-lg flex">
-                <div class="lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
+            <div class="h-32 lg:h-32 xl:h-40  bg-orange-400  text-white p-1 rounded-lg flex">
+                <div class="text-6xl lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
                     <span class="icon-[ic--baseline-groups-2]"></span>
                 </div>
                 <div class="w-3/5 text-center flex flex-col justify-center">
@@ -38,8 +38,8 @@
             </div>
 
             <!-- Card 4 -->
-            <div class="lg:h-32 xl:h-40  bg-sky-500   text-white p-1 rounded-lg flex">
-                <div class="lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
+            <div class="h-32 lg:h-32 xl:h-40  bg-sky-500   text-white p-1 rounded-lg flex">
+                <div class="text-6xl lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
                     <span class="icon-[raphael--user]"></span>
                 </div>
                 <div class="w-3/5 text-center flex flex-col justify-center">
@@ -49,8 +49,8 @@
             </div>
 
             <!-- Card 5 -->
-            <div class="lg:h-32 xl:h-40  bg-teal-400   text-white p-1 rounded-lg flex">
-                <div class="lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
+            <div class="h-32 lg:h-32 xl:h-40  bg-teal-400   text-white p-1 rounded-lg flex">
+                <div class="text-6xl lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
                     <span class="icon-[icon-park-solid--women]"></span>
                 </div>
                 <div class="w-3/5 text-center flex flex-col justify-center">
@@ -60,8 +60,8 @@
             </div>
 
             <!-- Card 6 -->
-            <div class="lg:h-32 xl:h-40 bg-emerald-600   text-white p-1 rounded-lg flex">
-                <div class="lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
+            <div class="h-32 lg:h-32 xl:h-40 bg-emerald-600   text-white p-1 rounded-lg flex">
+                <div class="text-6xl lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
                     <span class="icon-[entypo--users]"></span>
                 </div>
                 <div class="w-3/5 text-center flex flex-col justify-center">
@@ -71,8 +71,8 @@
             </div>
 
             <!-- Card 7 -->
-            <div class="lg:h-32 xl:h-40  bg-sky-900 h-40  text-white p-1 rounded-lg flex">
-                <div class="lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
+            <div class="h-32 xl:h-40  bg-sky-900  text-white p-1 rounded-lg flex">
+                <div class="text-6xl lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
                     <span class="icon-[mdi--user-star]"></span>
                 </div>
                 <div class="w-3/5 text-center flex flex-col justify-center">
@@ -82,8 +82,8 @@
             </div>
 
             <!-- Card 8 -->
-            <div class="lg:h-32 xl:h-40  bg-sky-950  text-white p-1 rounded-lg flex">
-                <div class="lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
+            <div class="h-32  xl:h-40  bg-sky-950  text-white p-1 rounded-lg flex">
+                <div class="text-6xl lg:text-5xl xl:text-7xl w-2/5 flex flex-col justify-center items-center">
                     <span class="icon-[healthicons--i-groups-perspective-crowd]"></span>
                 </div>
                 <div class="w-3/5 text-center flex flex-col justify-center">
@@ -96,7 +96,7 @@
     <!-- / cards -->
      <!-- btn nuevo integrante -->
      <div class="fex justify-end mt-4 w-full  p-2">
-        <button class=" btn  p-2 bg-sky-800 border-sky-800 text-slate-50" id="btn-nuevoIntegrante"> <span class="icon-[mingcute--user-add-line] "></span> Nuevo integrante</button>
+        <button class=" btn  p-2 bg-sky-800 border-sky-800 text-slate-50" id="btn-nuevoIntegrante"aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#nuevousuario"> <span class="icon-[mingcute--user-add-line] "></span> Nuevo integrante</button>
      </div>
      <!-- / btn nuevo integrante -->
     <!-- table -->
@@ -195,10 +195,10 @@
                             <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
                             <td>912345678</td>
                             <td>
-                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button"aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#editIntegrantes">
                                 <span class="icon-[tabler--pencil] size-5"></span>
                                 </button>
-                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" onclick="delIntegrantes()">
                                 <span class="icon-[tabler--trash] size-5"></span>
                                 </button>
                             </td>
@@ -212,10 +212,10 @@
                             <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
                             <td>912345678</td>
                             <td>
-                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button"aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#editIntegrantes">
                                 <span class="icon-[tabler--pencil] size-5"></span>
                                 </button>
-                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" onclick="delIntegrantes()">
                                 <span class="icon-[tabler--trash] size-5"></span>
                                 </button>
                             </td>
@@ -229,10 +229,10 @@
                             <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
                             <td>912345678</td>
                             <td>
-                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button"aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#editIntegrantes">
                                 <span class="icon-[tabler--pencil] size-5"></span>
                                 </button>
-                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" onclick="delIntegrantes()">
                                 <span class="icon-[tabler--trash] size-5"></span>
                                 </button>
                             </td>
@@ -246,10 +246,10 @@
                             <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
                             <td>912345678</td>
                             <td>
-                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button"aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#editIntegrantes">
                                 <span class="icon-[tabler--pencil] size-5"></span>
                                 </button>
-                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" onclick="delIntegrantes()">
                                 <span class="icon-[tabler--trash] size-5"></span>
                                 </button>
                             </td>
@@ -263,10 +263,10 @@
                             <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
                             <td>912345678</td>
                             <td>
-                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button"aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#editIntegrantes">
                                 <span class="icon-[tabler--pencil] size-5"></span>
                                 </button>
-                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" onclick="delIntegrantes()">
                                 <span class="icon-[tabler--trash] size-5"></span>
                                 </button>
                             </td>
@@ -280,28 +280,10 @@
                             <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
                             <td>912345678</td>
                             <td>
-                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button"aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#editIntegrantes">
                                 <span class="icon-[tabler--pencil] size-5"></span>
                                 </button>
-                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
-                                <span class="icon-[tabler--trash] size-5"></span>
-                                </button>
-                            </td>
-                            </tr>
-                            <tr>
-
-                            <td>04423451</td>
-                            <td>Juan carlos</td>
-                            <td>Quispe</td>
-                            <td>Flores</td>
-                            <td>G102-J</td>
-                            <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
-                            <td>912345678</td>
-                            <td>
-                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
-                                <span class="icon-[tabler--pencil] size-5"></span>
-                                </button>
-                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" onclick="delIntegrantes()">
                                 <span class="icon-[tabler--trash] size-5"></span>
                                 </button>
                             </td>
@@ -316,10 +298,10 @@
                             <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
                             <td>912345678</td>
                             <td>
-                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button"aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#editIntegrantes">
                                 <span class="icon-[tabler--pencil] size-5"></span>
                                 </button>
-                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" onclick="delIntegrantes()">
                                 <span class="icon-[tabler--trash] size-5"></span>
                                 </button>
                             </td>
@@ -334,10 +316,28 @@
                             <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
                             <td>912345678</td>
                             <td>
-                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button"aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#editIntegrantes">
                                 <span class="icon-[tabler--pencil] size-5"></span>
                                 </button>
-                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button">
+                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" onclick="delIntegrantes()">
+                                <span class="icon-[tabler--trash] size-5"></span>
+                                </button>
+                            </td>
+                            </tr>
+                            <tr>
+
+                            <td>04423451</td>
+                            <td>Juan carlos</td>
+                            <td>Quispe</td>
+                            <td>Flores</td>
+                            <td>G102-J</td>
+                            <td><span class="badge badge-soft badge-success badge-sm">Admin</span></td>
+                            <td>912345678</td>
+                            <td>
+                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" aria-haspopup="dialog" aria-expanded="false" aria-controls="slide-down-animated-modal" data-overlay="#editIntegrantes">
+                                <span class="icon-[tabler--pencil] size-5"></span>
+                                </button>
+                                <button class="btn btn-circle btn-text btn-sm" aria-label="Action button" onclick="delIntegrantes()">
                                 <span class="icon-[tabler--trash] size-5"></span>
                                 </button>
                             </td>
@@ -376,5 +376,171 @@
             </div>
     </section>
     <!-- /table -->
+      <!-- modal muevo integrante -->
+    <div id="nuevousuario" class="overlay modal overlay-open:opacity-100 overlay-open:duration-300 hidden" role="dialog" tabindex="-1">
+        <div class="modal-dialog overlay-open:mt-12 overlay-open:opacity-100 overlay-open:duration-300 transition-all ease-out" >
+            <div class="modal-content">
+                <div class="modal-header text-center justify-center">
+                    <h2 class="text-xl  font-bold text-center text-sky-800 modal-title">Nuevo Integrante</h2>
+                    <button type="button" class="btn btn-text btn-circle btn-sm absolute end-3 top-3" aria-label="Close" data-overlay="#nuevousuario">
+                        <span class="icon-[tabler--x] size-4"></span>
+                    </button>
+                </div>
+                 
+                <form method="POST" id="frmUsuario" class="p-4 grid grid-cols-2 gap-4">
+                    <section>
+                        <div class="w-full flex flex-col">
+                            <label for="doc" class="text-sky-800">Tipo Documento</label>
+                            <select name="documento" id="documento" class="p-2 border border-sky-600 rounded-md outline-none">
+                                <option value="" class="text-center" selected>----Seleccione----</option>
+                                <option value="1">Dni</option>
+                                <option value="">Pasaporte</option>
+                            </select>
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="ndoc"class="text-sky-800">Número de Documento</label>
+                            <input type="text" name="ndoc" id="ndoc" class="p-2 border border-sky-600 rounded-md outline-none ">
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="apmat"class="text-sky-800">Apellido  Materno</label>
+                            <input type="text" name="apmat" id="apmat" class="p-2 border border-sky-600 rounded-md outline-none">
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="rol"class="text-sky-800">Rol</label>
+                            <select name="rol" id="rol" class="p-2 border border-sky-600 rounded-md outline-none">
+                                <option value=""class="text-center" selected>----Seleccione----</option>
+                                <option value="1">Admin</option>
+                                <option value="2">Lider</option>
+                                <option value="3">Consolidador</option>
+                            </select>
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="miembro"class="text-sky-800">Miembro</label>
+                            <select name="" id="miembro" class="p-2 border border-sky-600 rounded-md outline-none">
+                                <option value="" class="text-center" selected>----Seleccione----</option>
+                                <option value="1">Activo</option>
+                                <option value="2">Inactivo</option>
+                            </select>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="w-full flex flex-col">
+                            <label for=""class="text-sky-800">Nombres</label>
+                            <input type="text"  id="nombre" name="nombre" class="p-2 border border-sky-600 rounded-md outline-none">
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="appat"class="text-sky-800">Apellido Paterno</label>
+                            <input type="text"  id="appat" name="appat" class="p-2 border border-sky-600 rounded-md outline-none">
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="grupo"class="text-sky-800">Asignar grupo</label>
+                            <select name="" id="" class="p-2 border border-sky-600 rounded-md outline-none">
+                                <option value="" class="text-center" selected>----Seleccione----</option>
+                                <option value="1">Grupo 1</option>
+                                <option value="2">Grupo 2</option>
+                            </select>
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="telefono"class="text-sky-800">Numero de Telefono</label>
+                            <input type="number"  id="telefono" name="telefono" maxlength="9" class="p-2 border border-sky-600 rounded-md outline-none">
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="justificacion"class="text-sky-800">Justificacion</label>
+                            <textarea name="justificacion" id="justificacion" cols="30" rows="10"class="px-0.5 border border-sky-600 rounded-md outline-none min-w-24 min-h-32 max-h-32" onclick="setCursorToStart(this)">
+
+                            </textarea>
+                        </div>
+                    </section>
+                    <div class="col-span-2">
+                        <button class="bg-sky-500 p-4 text-slate-50 rounded-md block m-auto">Guardar cambios</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /modal nuevo integrante -->
+     <!-- editar integrante -->
+       <div id="editIntegrantes" class="overlay modal overlay-open:opacity-100 overlay-open:duration-300 hidden" role="dialog" tabindex="-1">
+        <div class="modal-dialog overlay-open:mt-12 overlay-open:opacity-100 overlay-open:duration-300 transition-all ease-out" >
+            <div class="modal-content">
+                <div class="modal-header text-center justify-center">
+                    <h2 class="text-xl  font-bold text-center text-sky-800 modal-title">Editar Integrante</h2>
+                    <button type="button" class="btn btn-text btn-circle btn-sm absolute end-3 top-3" aria-label="Close" data-overlay="#editIntegrantes">
+                        <span class="icon-[tabler--x] size-4"></span>
+                    </button>
+                </div>
+                 
+                <form method="POST" id="frmUsuario" class="p-4 grid grid-cols-2 gap-4">
+                    <section>
+                        <div class="w-full flex flex-col">
+                            <label for="doc" class="text-sky-800">Tipo Documento</label>
+                            <select name="documento" id="documento" class="p-2 border border-sky-600 rounded-md outline-none">
+                                <option value="" class="text-center" selected>----Seleccione----</option>
+                                <option value="1">Dni</option>
+                                <option value="">Pasaporte</option>
+                            </select>
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="ndoc"class="text-sky-800">Número de Documento</label>
+                            <input type="text" name="ndoc" id="ndoc" class="p-2 border border-sky-600 rounded-md outline-none ">
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="apmat"class="text-sky-800">Apellido  Materno</label>
+                            <input type="text" name="apmat" id="apmat" class="p-2 border border-sky-600 rounded-md outline-none">
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="rol"class="text-sky-800">Rol</label>
+                            <select name="rol" id="rol" class="p-2 border border-sky-600 rounded-md outline-none">
+                                <option value=""class="text-center" selected>----Seleccione----</option>
+                                <option value="1">Admin</option>
+                                <option value="2">Lider</option>
+                                <option value="3">Consolidador</option>
+                            </select>
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="miembro"class="text-sky-800">Miembro</label>
+                            <select name="" id="miembro" class="p-2 border border-sky-600 rounded-md outline-none">
+                                <option value="" class="text-center" selected>----Seleccione----</option>
+                                <option value="1">Activo</option>
+                                <option value="2">Inactivo</option>
+                            </select>
+                        </div>
+                    </section>
+                    <section>
+                        <div class="w-full flex flex-col">
+                            <label for=""class="text-sky-800">Nombres</label>
+                            <input type="text"  id="nombre" name="nombre" class="p-2 border border-sky-600 rounded-md outline-none">
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="appat"class="text-sky-800">Apellido Paterno</label>
+                            <input type="text"  id="appat" name="appat" class="p-2 border border-sky-600 rounded-md outline-none">
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="grupo"class="text-sky-800">Asignar grupo</label>
+                            <select name="" id="" class="p-2 border border-sky-600 rounded-md outline-none">
+                                <option value="" class="text-center" selected>----Seleccione----</option>
+                                <option value="1">Grupo 1</option>
+                                <option value="2">Grupo 2</option>
+                            </select>
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="telefono"class="text-sky-800">Numero de Telefono</label>
+                            <input type="number"  id="telefono" name="telefono" maxlength="9" class="p-2 border border-sky-600 rounded-md outline-none">
+                        </div>
+                        <div class="w-full flex flex-col">
+                            <label for="justificacion"class="text-sky-800">Justificacion</label>
+                            <textarea name="justificacion" id="justificacion" cols="30" rows="10"class="px-0.5 border border-sky-600 rounded-md outline-none min-w-24 min-h-32 max-h-32" onclick="setCursorToStart(this)">
+
+                            </textarea>
+                        </div>
+                    </section>
+                    <div class="col-span-2">
+                        <button class="bg-sky-500 p-4 text-slate-50 rounded-md block m-auto">Guardar cambios</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- /editar integrante -->
 </div>
 <?php include "Views/Templates/footer.php"?>
