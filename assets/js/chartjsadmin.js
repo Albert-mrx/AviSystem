@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
             position: 'bottom',
             labels: {
               font: {
-                size: 14
+                size: 10
               }
             }
           }
@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
             position: 'bottom',
             labels: {
               font: {
-                size: 14
+                size: 10
               }
             }
           }
@@ -83,7 +83,7 @@ document.addEventListener('DOMContentLoaded', () => {
             position: 'bottom',
             labels: {
               font: {
-                size: 14
+                size: 10
               }
             }
           }

@@ -86,7 +86,7 @@
             flatpickr("#hora", {
                 noCalendar: true,
                 enableTime: true,
-                time_24hr: false
+                time_24hr: false,
                 dateFormat: "h:i K", // Ej: 02:30 PM
             });
         </script>

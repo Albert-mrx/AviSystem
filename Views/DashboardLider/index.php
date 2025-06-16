@@ -39,10 +39,10 @@
         </div>
 
         <!-- chart -->
-        <div class="w-full mt-60 md:mt-8 flex flex-wrap md:flex-nowrap   h-auto   md:justify-center ">
-            <canvas id="recurrenciactr" class="w-xl h-xl md:w-full md:h-full"></canvas>
-            <canvas id="sexoctr" class="w-xl h-xl md:w-full md:h-full"></canvas>
-            <canvas id="integrantesctr" class="w-xl h-xl md:w-full md:h-full"></canvas>
+        <div class="w-full mt-60 sm:mt-8 flex flex-col justify-center items-center sm:grid sm:grid-cols-3   h-auto   ">
+            <canvas id="recurrenciactr"  width="300" height="300" class="sm:h-64 sm:w-64"></canvas>
+            <canvas id="sexoctr" width="300" height="300" class="sm:h-64 sm:w-64"></canvas>
+            <canvas id="integrantesctr" width="300" height="300" class="sm:h-64 sm:w-64"></canvas>
         </div>
     </section>
     <section class="flex flex-col w-full md:overflow-y-auto h-1/2 mt-24 ">

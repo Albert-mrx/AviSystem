@@ -290,7 +290,7 @@
         </section>
     </div>
     <!-- modal muevo usuario -->
-    <div id="nuevouser" class="overlay modal overlay-open:opacity-100 overlay-open:duration-300 hidden" role="dialog" tabindex="-1">
+    <div id="nuevouser" class="overlay modal overlay-open:opacity-100 overlay-open:duration-300 hidden " role="dialog" tabindex="-1">
         <div class="modal-dialog overlay-open:mt-12 overlay-open:opacity-100 overlay-open:duration-300 transition-all ease-out" >
             <div class="modal-content">
                 <div class="modal-header text-center justify-center">

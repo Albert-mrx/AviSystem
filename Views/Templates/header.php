@@ -56,7 +56,7 @@
                         </a>
                     </li>
                     <li>
-                        <a href="#" class="">
+                        <a href="<?php echo base_url; ?>Grupos" class="">
                         <span class="icon-[material-symbols--group] size-5"></span>
                         Grupos
                         </a>
